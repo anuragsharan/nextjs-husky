@@ -21,6 +21,6 @@ describe("Button Component", () => {
       screen.queryByText("Hello button is clicked")
     ).not.toBeInTheDocument();
 
-    expect(button).toHaveTextContent("Show Text123");
+    expect(button).toHaveTextContent("Show Text");
   });
 });
